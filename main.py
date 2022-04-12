@@ -9,7 +9,7 @@ def index():
 
 @app.route('/cow')
 def cow():
-    return 'MOoooOo!'
+    return 'MOoooOo! Im a COOOW'
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
