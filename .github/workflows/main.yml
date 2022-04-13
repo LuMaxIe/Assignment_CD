@@ -49,4 +49,4 @@ jobs:
           pip install wheel
           pip install gunicorn flask
           sudo systemctl daemon-reload
-          sudo systemctl start lumax_portfolio.service
+          sudo systemctl restart lumax_portfolio
